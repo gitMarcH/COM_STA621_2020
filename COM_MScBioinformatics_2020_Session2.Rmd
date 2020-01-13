@@ -20,7 +20,7 @@ require(gridExtra)
 
 ## Preliminaries
 
-In this session we will (re)view the basic fundaments of probability and statistical theory that you need to know for later sessions.
+In this session we will look at how to summarise key aspects of a dataset, how to present this and how to explore a new dataset before starting any analysis.
 
 $$\,$$
 

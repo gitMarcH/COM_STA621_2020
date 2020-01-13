@@ -1072,7 +1072,7 @@ $$E(X)=\frac{\alpha}{\beta},\, Var(X)=\frac{\alpha}{\beta^2}$$
 
 ## Common distributions: Gamma
 
-The exponential distribution arises as a sum of independent exponentially distributed random variables.
+The gamma distribution arises as a sum of independent exponentially distributed random variables.
 
 It is an important conjugate prior distribution in Bayesian statistics.
 
@@ -1276,7 +1276,7 @@ Important in statistical hypothesis testing, more rarely used to directly model 
 
 This distribution arises in parameter estimation and hypothesis testing.
 
-Let $z_i\sim_{iid}\mathcal{N}(\mu,\sigma^2), i=1,...,n$. Define
+Let $X_i\sim_{iid}\mathcal{N}(\mu,\sigma^2), i=1,...,n$. Define
 
 $\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$ and $S^2=\frac{1}{n-1}\sum_{i=1}^n(X_i-\bar{X})^2$
 
