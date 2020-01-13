@@ -1243,7 +1243,7 @@ If there is no association between the variables, then $\phi=0$. However, the ma
 
 This makes it hard to compare $\phi$ between different pairs of variables where $n$ and/or $m$ vary.
 
-For 2 binary variables: $\phi=\rho$, the Pearson correlation coefficient $\rho$.
+For 2 binary variables: $\phi=r$, the Pearson correlation coefficient $r$.
 
 
 ## Categorical - categorical
@@ -1307,9 +1307,10 @@ x2<-chisq.test(tt)$statistic
 phi<-sqrt(x2/nrow(df))
 V<-sqrt(x2/(nrow(df)*1))
 e1<-sum(df$lungCancer=="lungCancer")
-e2<-sum(df$lungCancer=="lungCancer" & df$smoker=="neverSmoker") + sum(df$lungCancer=="lungCancer" & df$smoker=="pastSmoker") + sum(df$lungCancer=="noLungCancer" & df$smoker=="currentSmoker")
+e2<-sum(df$lungCancer=="lungCancer" & df$smoker=="neverSmoker") + sum(df$lungCancer=="lungCancer" & df$smoker=="pastSmoker") + sum(df$lungCancer=="lungCancer" & df$smoker=="currentSmoker")
 lambda<-(e1-e2)/e2
 ```
+
 
 ## Categorical - categorical
 
@@ -1395,9 +1396,7 @@ $G$ becomes unwieldy for ordinal variables with a wide range of possible values.
 
 A very widely used measure of association is **Spearman's rank correlation coefficient**.
 
-This measure computes the rank for each observation in each of the 2 variables. It then calculates the difference in ranks $d_i$ between the 2 variables for each observation $i=1,\ldots,n$.
-
-Spearman's $\rho$ is then obtained as:
+This measure computes the rank for each observation in each of the 2 variables. It then calculates the difference in ranks $d_i$ between the 2 variables for each observation $i=1,\ldots,n$. Spearman's $\rho$ is then:
 
 $$
 \rho=1-\frac{6\sum_i d_i^2}{n(n^2-1)}

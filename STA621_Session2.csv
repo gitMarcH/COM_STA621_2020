@@ -1,0 +1,751 @@
+"ID","status","sex","age","biomarker","biomarker2"
+"pid1","unexposed, uninfected","M",13,-3.20706574938542,0.398808833379231
+"pid2","exposed, uninfected","F",10,1.1006355915371,NA
+"pid3","exposed, uninfected","F",12,2.41744131748656,0.822958919682165
+"pid4","exposed, uninfected","F",10,2.15344473686401,0.725161186769507
+"pid5","unexposed, uninfected","F",10,-1.57087531118895,0.634436581792871
+"pid6","exposed, uninfected","F",10,0.878497502674458,0.757922003557422
+"pid7","exposed, uninfected","F",14,1.48221191694498,3.18282749798281
+"pid8","exposed, uninfected","F",NA,1.92505291166148,0.762028211980332
+"pid9","unexposed, uninfected","M",12,-2.56445199909328,NA
+"pid10","unexposed, uninfected","F",13,-2.8900378290441,1.12444487022852
+"pid11","exposed, uninfected","F",11,1.29182882178662,NA
+"pid12","unexposed, uninfected","M",12,-2.9983864448597,0.222106994721136
+"pid13","unexposed, uninfected","M",15,-2.77625389463799,1.43661418460428
+"pid14","unexposed, uninfected","F",12,-1.93554118272373,NA
+"pid15","exposed, uninfected","F",12,3.1330101941542,0.22296093114452
+"pid16","unexposed, uninfected","F",12,-2.11028549439077,0.245600669483073
+"pid17","unexposed, uninfected","F",13,-2.51100950580664,NA
+"pid18","unexposed, uninfected","F",11,-2.91119541662981,0.00903274953287629
+"pid19","infected","M",15,0.220069464994594,NA
+"pid20","unexposed, uninfected","F",10,0.415835178489341,NA
+"pid21","unexposed, uninfected","F",13,-1.86591177984797,0.304178968009644
+"pid22","infected","F",15,0.644469383638352,2.48397492211074
+"pid23","unexposed, uninfected","F",11,-2.44054787235323,0.46644166275623
+"pid24","exposed, uninfected","M",10,2.11396291997139,0.339777474369755
+"pid25","unexposed, uninfected","F",12,-2.69372024693748,0.332425627804829
+"pid26","infected","F",12,0.49943824345246,NA
+"pid27","unexposed, uninfected","F",11,-1.42524427909927,NA
+"pid28","unexposed, uninfected","F",12,-3.02365572296388,NA
+"pid29","unexposed, uninfected","F",11,-2.01513830036418,1.44244329327682
+"pid30","unexposed, uninfected","M",13,NA,1.54598222597714
+"pid31","exposed, uninfected","F",14,1.19006361007921,0.333110880289832
+"pid32","unexposed, uninfected","F",12,-2.47559307886906,0.680885671556116
+"pid33","unexposed, uninfected","F",11,-2.70944003751251,0.550407866472547
+"pid34","infected","F",14,0.119531877106056,0.312400334751766
+"pid35","unexposed, uninfected","F",14,NA,1.21283053207209
+"pid36","unexposed, uninfected","F",12,-3.16761926209419,0.502195506000302
+"pid37","unexposed, uninfected","F",15,-4.18003964894867,NA
+"pid38","unexposed, uninfected","F",11,-3.34099319210003,0.135080082738671
+"pid39","infected","F",16,0.747768937144428,NA
+"pid40","unexposed, uninfected","F",11,-2.46589754040611,0.104842074635726
+"pid41","unexposed, uninfected","F",12,-0.550503734712868,4.5439172021208
+"pid42","exposed, uninfected","F",14,1.05520608510001,0.833108005761115
+"pid43","unexposed, uninfected","M",11,-2.85536463373751,0.270652610801221
+"pid44","unexposed, uninfected","M",10,-2.28062300195745,0.273901483201812
+"pid45","infected","F",14,0.444822593359277,0.15928076499099
+"pid46","unexposed, uninfected","M",10,-2.96851431787205,0.0719001732275597
+"pid47","exposed, uninfected","F",14,2.32527121991694,NA
+"pid48","unexposed, uninfected","M",14,-3.25198588563894,NA
+"pid49","unexposed, uninfected","M",12,-2.52382811898736,0.336095327390342
+"pid50","exposed, uninfected","F",12,3.4114046447039,0.394649136435453
+"pid51","unexposed, uninfected","M",12,-3.80603125680195,0.217272979266975
+"pid52","exposed, uninfected","F",10,1.59282385287846,NA
+"pid53","unexposed, uninfected","F",13,-3.10888962442678,0.47117459099588
+"pid54","unexposed, uninfected","F",15,NA,0.278616803265513
+"pid55","unexposed, uninfected","F",12,-2.16230952355682,NA
+"pid56","exposed, uninfected","F",13,0.79833420359489,NA
+"pid57","infected","F",17,0.272918579168618,3.460218699912
+"pid58","unexposed, uninfected","F",13,-2.77335342394369,1.30348297692497
+"pid59","unexposed, uninfected","F",14,-0.394090371142704,1.04165366083789
+"pid60","infected","F",18,0.152774207061157,0.195882729797041
+"pid61","infected","M",15,0.762438833946362,0.478321100946815
+"pid62","unexposed, uninfected","F",12,0.548991070717856,NA
+"pid63","infected","F",14,0.859010903630406,0.113609589466694
+"pid64","exposed, uninfected","F",12,0.945319782022335,1.18684073936884
+"pid65","unexposed, uninfected","F",11,-2.00760475571097,0.997683735487934
+"pid66","unexposed, uninfected","F",13,-0.222915551856574,2.18611590940196
+"pid67","unexposed, uninfected","F",13,-3.13860773675091,NA
+"pid68","unexposed, uninfected","F",12,-0.632172820576737,2.96120750311628
+"pid69","unexposed, uninfected","F",14,-0.67043520921764,1.90557373390113
+"pid70","unexposed, uninfected","F",11,-1.66352720279618,1.67646876780575
+"pid71","unexposed, uninfected","F",11,-1.99310716155804,NA
+"pid72","unexposed, uninfected","F",11,-2.45546873816143,0.0540317397229304
+"pid73","unexposed, uninfected","F",12,-2.36652393287393,3.72754936996195
+"pid74","infected","M",13,0.509830849710852,NA
+"pid75","infected","M",14,0.551686389604583,1.60245581958292
+"pid76","infected","F",15,0.476396628655493,NA
+"pid77","unexposed, uninfected","M",14,-3.39070094670149,0.0747138498876042
+"pid78","unexposed, uninfected","F",10,-2.72358177711015,0.298060378441587
+"pid79","unexposed, uninfected","F",12,-1.74173823783215,NA
+"pid80","unexposed, uninfected","M",11,-2.3170591149612,NA
+"pid81","infected","F",13,0.394037876510993,0.0533539637714378
+"pid82","infected","F",13,0.647228265879676,0.12932438298414
+"pid83","unexposed, uninfected","M",11,-3.37230188587669,0.749019550447364
+"pid84","unexposed, uninfected","M",12,-2.17378717041403,0.652617219437698
+"pid85","unexposed, uninfected","F",11,-1.14976774287812,0.302485091966489
+"pid86","infected","F",NA,0.719836730044335,NA
+"pid87","unexposed, uninfected","M",11,-1.4500026489089,NA
+"pid88","exposed, uninfected","F",10,3.67432650967139,0.603007262925112
+"pid89","unexposed, uninfected","F",13,-2.19159377047848,0.00759364257620402
+"pid90","unexposed, uninfected","F",12,-3.19452787960251,1.25348152452203
+"pid91","infected","F",14,0.0336728761903942,NA
+"pid92","unexposed, uninfected","F",13,-1.74480399900417,NA
+"pid93","unexposed, uninfected","F",13,-0.294035992759925,0.865354057279968
+"pid94","exposed, uninfected","F",12,1.95685960938667,0.202077645119491
+"pid95","unexposed, uninfected","F",14,-2.49558344300146,NA
+"pid96","unexposed, uninfected","M",12,-1.64444970300025,0.413031964691659
+"pid97","exposed, uninfected","F",11,2.73039605143577,NA
+"pid98","unexposed, uninfected","F",11,-1.12179637304771,3.28611295572342
+"pid99","exposed, uninfected","F",10,2.98477996831456,0.0222968883321062
+"pid100","exposed, uninfected","F",12,0.775262124035734,1.29651936621976
+"pid101","infected","F",16,0.187986860517412,0.6124829526546
+"pid102","unexposed, uninfected","F",13,-2.47471847352936,1.0061771033024
+"pid103","exposed, uninfected","F",10,3.78260789538833,0.0114805282043792
+"pid104","unexposed, uninfected","F",12,-2.50247778239387,0.134640165833931
+"pid105","infected","F",13,0.564871523529291,NA
+"pid106","unexposed, uninfected","F",13,-1.83301072024702,0.420185163532602
+"pid107","exposed, uninfected","F",12,2.35450366092699,1.39695865000941
+"pid108","exposed, uninfected","M",13,1.98237365236962,0.0748781972601806
+"pid109","infected","F",16,0.150112381670624,1.61449685880926
+"pid110","unexposed, uninfected","F",10,NA,NA
+"pid111","unexposed, uninfected","M",13,-2.19593461871625,0.1238685685914
+"pid112","unexposed, uninfected","F",12,-2.64906975160576,NA
+"pid113","infected","F",14,0.300061565823853,3.5984680845451
+"pid114","exposed, uninfected","F",13,1.12855052781461,0.506565928953113
+"pid115","unexposed, uninfected","F",10,-1.97763747392398,0.447406471874008
+"pid116","infected","F",14,0.564455378334969,0.317251537822903
+"pid117","exposed, uninfected","F",11,2.42734032499911,NA
+"pid118","unexposed, uninfected","F",11,-1.83097358623382,0.508113854405807
+"pid119","unexposed, uninfected","F",12,-1.32683369305232,0.0158208731683792
+"pid120","exposed, uninfected","F",13,NA,0.844245497526445
+"pid121","infected","F",12,0.462302629603073,NA
+"pid122","unexposed, uninfected","M",12,-2.78190664669988,0.997334641981416
+"pid123","unexposed, uninfected","F",12,0.0581619877634907,NA
+"pid124","unexposed, uninfected","F",11,-1.24949854684417,NA
+"pid125","infected","F",13,NA,0.424757495924516
+"pid126","exposed, uninfected","M",11,2.22747944302707,1.88203895781149
+"pid127","infected","F",16,0.476502306293696,4.80451404189175
+"pid128","unexposed, uninfected","F",14,-3.51328812003373,0.58519940228705
+"pid129","infected","F",15,0.0257198058534414,14.9591042621491
+"pid130","infected","F",13,0.687239063903689,0.681940666667149
+"pid131","unexposed, uninfected","F",15,-0.986309652534252,0.0133579654420889
+"pid132","exposed, uninfected","F",11,3.63534745793173,0.155684380690837
+"pid133","exposed, uninfected","F",12,2.43769388647964,0.290717331806244
+"pid134","infected","F",11,NA,1.36681957051862
+"pid135","unexposed, uninfected","F",14,-3.65010093484436,0.251240452814943
+"pid136","infected","F",12,0.155179484281689,3.42821359778287
+"pid137","unexposed, uninfected","F",NA,-2.31611832883308,0.146992381363777
+"pid138","exposed, uninfected","F",12,2.34499504947257,1.3768974500797
+"pid139","unexposed, uninfected","F",12,-1.07994247760909,0.233639983125951
+"pid140","infected","M",12,0.384143558796495,NA
+"pid141","exposed, uninfected","M",11,1.34830408926692,0.513303475570057
+"pid142","infected","F",20,0.707857825793326,1.82776864590689
+"pid143","exposed, uninfected","F",12,1.43230754470641,3.81198206391914
+"pid144","infected","F",10,0.636351579101756,NA
+"pid145","exposed, uninfected","F",13,0.151029688820967,NA
+"pid146","infected","F",13,0.774831358576193,1.79803968667968
+"pid147","infected","F",18,0.88546675699763,NA
+"pid148","unexposed, uninfected","M",11,-1.72410659641452,NA
+"pid149","exposed, uninfected","F",11,NA,NA
+"pid150","unexposed, uninfected","F",15,-1.65244802497619,0.721112049311324
+"pid151","infected","F",12,0.295309024862945,1.57401305893959
+"pid152","unexposed, uninfected","F",15,-1.90238053689076,NA
+"pid153","infected","F",12,0.311966919107363,NA
+"pid154","infected","F",10,0.0520595028065145,NA
+"pid155","exposed, uninfected","F",14,1.18496734927504,NA
+"pid156","infected","M",14,0.376303579425439,3.48288093561425
+"pid157","exposed, uninfected","F",11,2.95382348170826,NA
+"pid158","exposed, uninfected","M",13,2.61528477061344,0.0395171056354527
+"pid159","exposed, uninfected","F",12,1.29912929944974,1.02680719216341
+"pid160","exposed, uninfected","M",11,0.92633865853021,0.925892761362433
+"pid161","unexposed, uninfected","F",13,-2.84735007312957,0.657397963714976
+"pid162","unexposed, uninfected","F",14,-2.2606393920994,0.725196158147968
+"pid163","infected","F",12,0.823402378242463,3.50868601483295
+"pid164","unexposed, uninfected","F",13,NA,0.116147532311231
+"pid165","exposed, uninfected","F",11,1.1511166016216,2.23994640006169
+"pid166","unexposed, uninfected","M",12,-1.37536687179785,0.15495330148916
+"pid167","exposed, uninfected","M",15,3.33417603370242,0.516846619818018
+"pid168","infected","F",17,0.565358423395082,1.96430922925198
+"pid169","exposed, uninfected","F",10,1.77723658706715,NA
+"pid170","infected","F",NA,0.501032503088936,2.20596476490135
+"pid171","unexposed, uninfected","F",11,-0.295670602172902,0.468950158982607
+"pid172","exposed, uninfected","M",13,1.358808237676,0.298974879422921
+"pid173","exposed, uninfected","F",NA,1.07506235776105,NA
+"pid174","exposed, uninfected","F",11,1.22002253081468,2.66333505754495
+"pid175","unexposed, uninfected","M",12,-0.58873760125322,0.184911765801359
+"pid176","unexposed, uninfected","F",10,-2.83758243407686,1.20182613015305
+"pid177","unexposed, uninfected","F",10,NA,NA
+"pid178","infected","F",14,0.460856164107099,3.14990670724929
+"pid179","exposed, uninfected","F",12,1.03788097169625,4.0321273620748
+"pid180","exposed, uninfected","F",11,2.47463462727736,NA
+"pid181","unexposed, uninfected","F",11,-4.7322195229558,0.866674642518749
+"pid182","exposed, uninfected","F",12,1.89297964375302,0.0940533540081764
+"pid183","infected","F",11,0.560944349272177,1.15461545386336
+"pid184","exposed, uninfected","F",16,1.39789510155187,1.75670204898657
+"pid185","exposed, uninfected","F",10,-0.0232976453336811,3.9197693508448
+"pid186","unexposed, uninfected","F",14,-0.0162677993156151,0.746890599765215
+"pid187","unexposed, uninfected","F",13,-0.830891485986374,NA
+"pid188","unexposed, uninfected","F",10,-2.50873701541522,0.494234657864474
+"pid189","infected","F",14,0.209258429938927,2.1335879828857
+"pid190","infected","F",12,0.714335383614525,0.339339580921561
+"pid191","unexposed, uninfected","M",13,NA,0.347013710633515
+"pid192","unexposed, uninfected","F",13,-4.85575865501924,0.461531174163381
+"pid193","unexposed, uninfected","F",12,-2.78964685226376,NA
+"pid194","infected","F",11,0.783850191161036,NA
+"pid195","unexposed, uninfected","M",12,0.168032539519327,NA
+"pid196","unexposed, uninfected","F",NA,-1.49930538571921,NA
+"pid197","exposed, uninfected","F",12,NA,0.280599624849955
+"pid198","unexposed, uninfected","F",14,-2.96590321013358,NA
+"pid199","unexposed, uninfected","F",13,-1.83734529188174,0.27522476196034
+"pid200","exposed, uninfected","F",10,2.61247330743331,NA
+"pid201","exposed, uninfected","F",10,0.308916772463118,3.24706634726418
+"pid202","unexposed, uninfected","M",12,-1.30323122143509,4.02890242086222
+"pid203","exposed, uninfected","F",11,2.01192513526002,0.731757031071289
+"pid204","unexposed, uninfected","F",13,-1.29926648445554,NA
+"pid205","unexposed, uninfected","M",12,-1.68831897133864,1.69037200952844
+"pid206","exposed, uninfected","F",11,3.47939487098826,0.592772221659104
+"pid207","unexposed, uninfected","F",11,-0.157536373792339,0.910440671414957
+"pid208","unexposed, uninfected","M",13,-0.887637158737404,0.815573501620677
+"pid209","infected","F",NA,0.864556597778574,1.23464198570811
+"pid210","infected","F",15,0.284947251901031,NA
+"pid211","unexposed, uninfected","F",NA,-1.58194217761492,1.6680963931637
+"pid212","unexposed, uninfected","F",10,-2.40023523734316,0.280499990180531
+"pid213","infected","F",11,0.865030728280544,0.904944471749299
+"pid214","unexposed, uninfected","F",14,-3.60708093984972,0.475370396731557
+"pid215","unexposed, uninfected","F",15,-2.41575178840152,1.63175777809821
+"pid216","unexposed, uninfected","M",NA,-1.57799162678258,NA
+"pid217","unexposed, uninfected","F",13,-2.15173653653498,0.651664038994549
+"pid218","unexposed, uninfected","F",14,-2.60615111526422,NA
+"pid219","unexposed, uninfected","F",10,-2.30472106896671,0.155008046728512
+"pid220","unexposed, uninfected","F",12,-1.37046390011553,NA
+"pid221","unexposed, uninfected","M",NA,-1.10482801972446,1.26570310857166
+"pid222","unexposed, uninfected","F",11,-1.33978736817959,NA
+"pid223","unexposed, uninfected","M",13,0.273483520447479,7.09800826873634
+"pid224","infected","F",11,NA,0.589715967395084
+"pid225","infected","F",14,0.715146099682897,1.63320433648009
+"pid226","unexposed, uninfected","M",11,NA,NA
+"pid227","unexposed, uninfected","F",11,0.919140130717616,4.24008758345049
+"pid228","infected","F",11,NA,4.61173243329355
+"pid229","exposed, uninfected","F",14,3.46026574621257,0.872143908400071
+"pid230","unexposed, uninfected","M",11,-1.81350791691903,0.350736386419387
+"pid231","unexposed, uninfected","M",16,-2.32439330048366,NA
+"pid232","unexposed, uninfected","F",NA,-2.27470421822581,0.413284860130061
+"pid233","unexposed, uninfected","M",12,-2.93350334058987,0.0346751896233791
+"pid234","unexposed, uninfected","F",14,-1.88315465501392,0.0913403903407555
+"pid235","unexposed, uninfected","F",11,-1.68083976135188,0.702065242323153
+"pid236","unexposed, uninfected","F",11,-3.07754212275943,NA
+"pid237","exposed, uninfected","M",14,1.96729182273441,1.17656908195329
+"pid238","infected","F",14,0.272918579168618,1.9650587300427
+"pid239","unexposed, uninfected","F",13,-1.97048216967852,NA
+"pid240","exposed, uninfected","F",11,1.32691317949551,1.13495185509192
+"pid241","unexposed, uninfected","F",10,NA,0.407328922456822
+"pid242","unexposed, uninfected","M",14,-1.58660110526295,1.30378430722698
+"pid243","exposed, uninfected","M",11,1.93188842613346,0.173057808924101
+"pid244","unexposed, uninfected","F",13,-1.28882474272956,NA
+"pid245","unexposed, uninfected","M",15,-1.28111127014586,NA
+"pid246","unexposed, uninfected","F",13,-1.74834893097103,0.176671187525319
+"pid247","unexposed, uninfected","F",11,-0.642725563848226,NA
+"pid248","unexposed, uninfected","M",11,-1.59553152872139,0.0995327268055481
+"pid249","unexposed, uninfected","M",12,-1.73563573016206,0.24320989377945
+"pid250","exposed, uninfected","F",12,1.35599214053356,0.322472399309113
+"pid251","unexposed, uninfected","F",11,-1.56306942296052,NA
+"pid252","unexposed, uninfected","F",12,-0.939876094512636,3.33150886929786
+"pid253","infected","F",14,0.138113676570356,3.57803541672192
+"pid254","exposed, uninfected","F",11,2.19069132392526,3.15160793352868
+"pid255","infected","F",15,0.509830849710852,4.37326387815316
+"pid256","exposed, uninfected","F",12,1.71473892215293,0.0745858468165189
+"pid257","unexposed, uninfected","M",11,-0.52303041020753,0.463083442325787
+"pid258","unexposed, uninfected","F",10,-3.22390375051376,0.903455089904631
+"pid259","exposed, uninfected","F",11,0.741837549984278,1.7893514000914
+"pid260","unexposed, uninfected","M",11,-1.59499719456648,0.705907478537956
+"pid261","unexposed, uninfected","F",12,-1.02419667819055,1.35867623185904
+"pid262","infected","F",13,0.394037876510993,1.37971048526376
+"pid263","infected","M",13,0.647228265879676,2.25338603664622
+"pid264","infected","F",14,0.0836418580729514,3.01680682482985
+"pid265","unexposed, uninfected","M",14,-1.66140395290009,0.720813424008224
+"pid266","unexposed, uninfected","M",10,-2.66656502955927,0.463697480606228
+"pid267","unexposed, uninfected","F",12,-2.23864662432764,0.0584315654644077
+"pid268","unexposed, uninfected","F",12,-3.18776528245719,0.421928136481891
+"pid269","exposed, uninfected","F",14,2.99750991744129,0.0321839250195646
+"pid270","unexposed, uninfected","F",14,-1.33342048434552,0.549724368228717
+"pid271","exposed, uninfected","F",13,1.11521088482488,NA
+"pid272","unexposed, uninfected","F",14,-0.174988935913704,1.89793449428182
+"pid273","unexposed, uninfected","F",13,-1.32944062943241,NA
+"pid274","unexposed, uninfected","F",11,-1.05136742674485,NA
+"pid275","unexposed, uninfected","M",11,0.0494030016709108,6.76590188939343
+"pid276","infected","M",16,0.676517235348001,1.58822083846713
+"pid277","unexposed, uninfected","F",12,-1.19138072715371,0.744647475020881
+"pid278","unexposed, uninfected","M",12,-1.01341938604544,2.16235409587549
+"pid279","unexposed, uninfected","F",14,-2.0061707960907,NA
+"pid280","unexposed, uninfected","M",12,-1.68094764206809,0.875727846931655
+"pid281","unexposed, uninfected","F",14,-3.01182190274184,NA
+"pid282","unexposed, uninfected","F",13,-1.52983245227361,NA
+"pid283","exposed, uninfected","F",12,0.884758564299835,0.287974114526124
+"pid284","infected","F",17,0.306312398752198,NA
+"pid285","infected","F",15,0.500568532850593,0.92612961556413
+"pid286","unexposed, uninfected","F",16,-1.68060251290054,NA
+"pid287","unexposed, uninfected","F",12,-2.84652265316362,0.203884182678665
+"pid288","unexposed, uninfected","M",12,-2.24576317912873,NA
+"pid289","unexposed, uninfected","F",14,-3.55285901110546,NA
+"pid290","unexposed, uninfected","M",14,-1.87156596707425,0.28439855742153
+"pid291","unexposed, uninfected","F",11,-1.01455661059513,0.533273703643337
+"pid292","unexposed, uninfected","F",10,-1.81675247693281,NA
+"pid293","unexposed, uninfected","F",10,-3.76622921343046,0.584522060076106
+"pid294","unexposed, uninfected","F",10,-2.62053369661594,NA
+"pid295","infected","F",16,0.299209151882678,0.568375147410946
+"pid296","unexposed, uninfected","F",11,-0.190194614416124,2.29863315086218
+"pid297","unexposed, uninfected","F",11,-3.17503676801214,0.23289402061827
+"pid298","infected","F",17,0.306876750895754,NA
+"pid299","unexposed, uninfected","F",10,-1.64637455107271,1.48932509884281
+"pid300","unexposed, uninfected","F",11,-1.6808437791321,NA
+"pid301","infected","F",14,0.646336852340028,3.12537793032711
+"pid302","unexposed, uninfected","F",13,-2.95327870194691,0.337611720275283
+"pid303","exposed, uninfected","F",15,1.63939642284665,0.151750774693445
+"pid304","exposed, uninfected","M",10,1.45278670051594,NA
+"pid305","unexposed, uninfected","F",12,-1.97637338507859,0.171173719793289
+"pid306","exposed, uninfected","F",11,1.06670016790634,0.865509977850416
+"pid307","infected","F",12,0.917456579161808,0.151443722603268
+"pid308","infected","F",13,0.476502306293696,NA
+"pid309","infected","M",12,0.436880405526608,0.119723459270575
+"pid310","infected","M",13,0.0257198058534414,0.284599269740501
+"pid311","unexposed, uninfected","F",14,-0.528281313814201,1.33184996891871
+"pid312","exposed, uninfected","F",12,2.14006728893046,0.187911687890906
+"pid313","unexposed, uninfected","F",10,-2.42172187007019,0.693871626565196
+"pid314","infected","M",12,0.484070608858019,0.124108394556067
+"pid315","unexposed, uninfected","F",12,-2.49227996822789,NA
+"pid316","infected","F",18,0.193794581340626,6.53233447655111
+"pid317","infected","F",12,0.155179484281689,0.228119714700468
+"pid318","exposed, uninfected","F",12,3.64235903904485,NA
+"pid319","unexposed, uninfected","F",12,-2.56161253538131,0.63714432837777
+"pid320","infected","M",15,0.603052286431193,2.92931660330306
+"pid321","exposed, uninfected","F",13,2.88003799231003,NA
+"pid322","unexposed, uninfected","F",13,-1.97581135200895,0.121064216542476
+"pid323","unexposed, uninfected","F",11,-2.50445152458087,NA
+"pid324","exposed, uninfected","F",16,1.37923896548819,NA
+"pid325","infected","F",12,0.636351579101756,2.75584219344494
+"pid326","infected","F",13,0.597481159493327,NA
+"pid327","unexposed, uninfected","F",11,-0.917389044523881,1.30305678329788
+"pid328","unexposed, uninfected","F",16,-2.95268545493929,NA
+"pid329","infected","F",16,0.721249970374629,NA
+"pid330","unexposed, uninfected","M",10,-2.64904301737912,NA
+"pid331","unexposed, uninfected","F",11,-1.70752992159327,NA
+"pid332","unexposed, uninfected","F",12,-1.10129727559726,3.41986972412895
+"pid333","exposed, uninfected","F",12,1.69566329522161,0.151375830727804
+"pid334","exposed, uninfected","F",10,1.64972037576429,1.23507238042361
+"pid335","unexposed, uninfected","F",10,-2.08797367118401,NA
+"pid336","infected","M",15,0.159742638934404,NA
+"pid337","unexposed, uninfected","F",11,-2.2700796109999,0.070725391191813
+"pid338","unexposed, uninfected","M",12,-0.380210122465064,1.7734371132692
+"pid339","unexposed, uninfected","F",10,NA,NA
+"pid340","infected","F",18,0.827505819266662,NA
+"pid341","unexposed, uninfected","M",13,-2.05402292408161,NA
+"pid342","unexposed, uninfected","F",11,-1.66985839014213,NA
+"pid343","unexposed, uninfected","M",11,-1.0446753853426,0.238783103537623
+"pid344","infected","M",17,0.823402378242463,1.15649597509581
+"pid345","unexposed, uninfected","F",10,-1.89947760162494,1.03230834730312
+"pid346","infected","F",12,0.0336296269670129,NA
+"pid347","unexposed, uninfected","F",11,-2.76425994779915,1.16831882779826
+"pid348","unexposed, uninfected","F",13,-4.3445134046903,0.791707048516521
+"pid349","unexposed, uninfected","F",13,-2.47168342552954,0.854370638804453
+"pid350","unexposed, uninfected","F",12,-2.51585548950739,1.42559805504905
+"pid351","infected","F",11,0.501032503088936,0.0099809615054362
+"pid352","exposed, uninfected","F",15,NA,1.69689108866513
+"pid353","unexposed, uninfected","M",13,-2.78377513942238,0.295028336590127
+"pid354","unexposed, uninfected","M",11,NA,1.09219372344511
+"pid355","unexposed, uninfected","M",11,-3.58710298765404,0.59701129639243
+"pid356","exposed, uninfected","F",10,0.541707575004306,1.58250590346112
+"pid357","unexposed, uninfected","F",12,-0.108772982644519,NA
+"pid358","infected","F",11,0.767146393656731,0.187781557055972
+"pid359","infected","F",13,0.460856164107099,6.16824799439966
+"pid360","exposed, uninfected","F",15,1.85305251064021,2.20737819410873
+"pid361","unexposed, uninfected","M",10,-1.06618366779227,3.66353706455571
+"pid362","infected","F",12,NA,3.39993838998152
+"pid363","unexposed, uninfected","F",10,NA,0.164893057129473
+"pid364","unexposed, uninfected","F",13,-2.15226004892164,NA
+"pid365","infected","M",13,NA,3.36647532611299
+"pid366","exposed, uninfected","F",11,1.67071905841885,1.96768727988
+"pid367","unexposed, uninfected","M",15,-3.28583853233299,0.057150217396041
+"pid368","unexposed, uninfected","M",11,-1.69268578474498,NA
+"pid369","infected","F",12,0.412295213434845,7.47958105992652
+"pid370","exposed, uninfected","M",10,0.965054128750755,0.667711700067682
+"pid371","infected","F",13,0.714335383614525,0.707437110290699
+"pid372","exposed, uninfected","F",10,3.07777130745133,0.341149738241716
+"pid373","unexposed, uninfected","F",10,-1.76736823049142,0.246094954595971
+"pid374","infected","M",15,0.546784047037363,3.32340293387002
+"pid375","unexposed, uninfected","F",16,NA,0.0605466278514
+"pid376","unexposed, uninfected","F",13,-1.86770891175584,NA
+"pid377","unexposed, uninfected","F",10,-2.27552474670594,NA
+"pid378","infected","F",13,0.89262037887238,0.00209493387907055
+"pid379","infected","F",15,0.263455022592098,2.02574218111085
+"pid380","infected","M",13,0.463319989386946,NA
+"pid381","unexposed, uninfected","F",16,-3.83498025077253,0.660400839304314
+"pid382","unexposed, uninfected","F",NA,-4.65174124837268,NA
+"pid383","infected","F",14,0.990808628732339,0.146757525013907
+"pid384","infected","F",13,0.644469383638352,NA
+"pid385","exposed, uninfected","F",13,2.6355681628564,0.226364908318606
+"pid386","exposed, uninfected","F",11,-0.906673954071546,3.66185830082146
+"pid387","unexposed, uninfected","F",13,-1.01749455726721,0.619900611170177
+"pid388","infected","M",16,0.49943824345246,2.70888815762147
+"pid389","infected","F",18,0.47825006628409,0.460061105723601
+"pid390","exposed, uninfected","F",12,1.73899340381564,0.134043780082682
+"pid391","unexposed, uninfected","F",12,-0.40277190965619,1.8240004179136
+"pid392","infected","F",14,0.493410493480042,0.57016857579371
+"pid393","unexposed, uninfected","M",15,NA,NA
+"pid394","unexposed, uninfected","F",12,-0.897535359248093,2.27662977730752
+"pid395","unexposed, uninfected","F",13,-1.47125498055471,0.323085298703552
+"pid396","unexposed, uninfected","F",12,-1.21060559648515,NA
+"pid397","unexposed, uninfected","F",11,-1.54290049414392,1.6447621181535
+"pid398","unexposed, uninfected","M",11,-1.46116688434188,NA
+"pid399","unexposed, uninfected","M",12,-1.9853568775889,NA
+"pid400","exposed, uninfected","F",12,0.612349420011937,1.55777290167692
+"pid401","exposed, uninfected","F",11,1.95077888559387,0.33571942775078
+"pid402","exposed, uninfected","M",11,3.81096073048314,0.273050587685016
+"pid403","unexposed, uninfected","F",NA,-3.20706574938542,NA
+"pid404","unexposed, uninfected","F",12,-1.72257075788934,0.500707706682912
+"pid405","infected","M",14,0.876522874925286,NA
+"pid406","infected","M",12,NA,NA
+"pid407","unexposed, uninfected","F",10,-1.57087531118895,NA
+"pid408","unexposed, uninfected","F",12,-1.49394410784243,1.70061194030311
+"pid409","infected","F",12,0.294832397950813,3.09327334399055
+"pid410","unexposed, uninfected","F",11,-2.54663185578419,NA
+"pid411","infected","F",12,0.140317602315918,1.396503142253
+"pid412","unexposed, uninfected","F",10,-2.8900378290441,NA
+"pid413","exposed, uninfected","F",14,1.29182882178662,NA
+"pid414","unexposed, uninfected","F",11,-2.9983864448597,0.497893065474457
+"pid415","exposed, uninfected","F",13,1.71616283938864,0.971575695424545
+"pid416","infected","F",15,0.220562079921365,0.315768859923289
+"pid417","infected","M",12,0.562099177855998,2.17291546408083
+"pid418","unexposed, uninfected","M",11,-2.11028549439077,NA
+"pid419","exposed, uninfected","M",15,2.55751159559247,0.381760553497704
+"pid420","unexposed, uninfected","M",15,-2.91119541662981,NA
+"pid421","unexposed, uninfected","F",11,-2.83717168026894,NA
+"pid422","unexposed, uninfected","M",13,0.415835178489341,1.05294298233972
+"pid423","unexposed, uninfected","F",12,-1.86591177984797,1.58263007017851
+"pid424","infected","F",12,0.140273029683158,0.576601679837316
+"pid425","unexposed, uninfected","F",13,-2.44054787235323,0.235234594101778
+"pid426","unexposed, uninfected","M",14,-1.54041055899415,0.424619562631664
+"pid427","infected","F",12,0.98776776669547,NA
+"pid428","infected","F",15,0.265920751495287,2.93635994029032
+"pid429","unexposed, uninfected","F",12,-1.42524427909927,1.67460116070339
+"pid430","unexposed, uninfected","F",13,-3.02365572296388,0.152931539210209
+"pid431","unexposed, uninfected","F",12,-2.01513830036418,3.09713029155625
+"pid432","exposed, uninfected","M",13,0.0811058682378865,NA
+"pid433","infected","F",15,0.469184151152149,NA
+"pid434","infected","F",15,0.138113676570356,4.94927096211401
+"pid435","unexposed, uninfected","F",14,-2.70944003751251,2.4781037885622
+"pid436","exposed, uninfected","F",15,3.60675956606494,0.183759447283493
+"pid437","exposed, uninfected","F",12,3.63559944628363,0.322077538076339
+"pid438","exposed, uninfected","F",13,2.72609109669849,0.0981312837492644
+"pid439","unexposed, uninfected","M",13,-4.18003964894867,NA
+"pid440","unexposed, uninfected","F",12,-3.34099319210003,0.362168963228729
+"pid441","unexposed, uninfected","F",11,-2.29429385876371,1.13083431200772
+"pid442","unexposed, uninfected","F",13,-2.46589754040611,0.309088676912006
+"pid443","unexposed, uninfected","F",11,-0.550503734712868,2.95463385143078
+"pid444","unexposed, uninfected","F",11,-3.06864272367458,1.53079769683591
+"pid445","exposed, uninfected","F",12,0.712379693993788,1.67543229701041
+"pid446","unexposed, uninfected","F",13,-2.28062300195745,NA
+"pid447","unexposed, uninfected","M",11,-2.99434007629567,0.189003932896411
+"pid448","infected","F",14,0.719836730044335,1.33295899870702
+"pid449","exposed, uninfected","F",10,2.32527121991694,0.195448079807059
+"pid450","unexposed, uninfected","F",13,-3.25198588563894,NA
+"pid451","infected","F",17,0.815142195438966,3.92149884918528
+"pid452","infected","F",18,0.282075119903311,NA
+"pid453","unexposed, uninfected","M",10,-3.80603125680195,0.29322514068139
+"pid454","unexposed, uninfected","F",15,NA,0.417276436185901
+"pid455","exposed, uninfected","F",10,2.76254173088585,NA
+"pid456","unexposed, uninfected","F",NA,-3.01496200949201,0.512462061841238
+"pid457","infected","M",16,0.676517235348001,0.109675110545378
+"pid458","unexposed, uninfected","F",12,-1.43694418100548,0.796225040390221
+"pid459","exposed, uninfected","M",11,1.85127952186991,0.465189298367196
+"pid460","unexposed, uninfected","M",10,-2.77335342394369,1.29436803714482
+"pid461","unexposed, uninfected","F",13,-0.394090371142704,0.198513004117132
+"pid462","exposed, uninfected","F",11,1.19716202664852,0.0401662579044439
+"pid463","exposed, uninfected","M",12,2.23037496416367,0.524581904912767
+"pid464","unexposed, uninfected","M",10,0.548991070717856,NA
+"pid465","unexposed, uninfected","M",12,-2.03476038980384,NA
+"pid466","unexposed, uninfected","M",NA,-2.66963357966196,1.0300263172065
+"pid467","unexposed, uninfected","F",NA,-2.00760475571097,0.031640946253689
+"pid468","infected","M",13,0.267370768357068,NA
+"pid469","unexposed, uninfected","M",11,-3.13860773675091,NA
+"pid470","unexposed, uninfected","F",10,-0.632172820576737,0.324601232660877
+"pid471","exposed, uninfected","F",11,3.41009405297303,NA
+"pid472","unexposed, uninfected","F",12,-1.66352720279618,0.0569337768304218
+"pid473","exposed, uninfected","F",14,NA,0.828134581454476
+"pid474","unexposed, uninfected","F",12,-2.45546873816143,0.223859280824546
+"pid475","exposed, uninfected","F",11,1.95979306256343,1.25705960098404
+"pid476","exposed, uninfected","F",12,2.54761224530106,0.0726957252473767
+"pid477","exposed, uninfected","M",11,1.49596667839446,0.237272604405325
+"pid478","unexposed, uninfected","F",NA,-2.15339841246697,1.51110704869891
+"pid479","unexposed, uninfected","M",14,-3.39070094670149,0.389748058165871
+"pid480","unexposed, uninfected","F",11,-2.72358177711015,2.24542298193731
+"pid481","infected","F",11,0.169220456387848,5.96743758224563
+"pid482","exposed, uninfected","F",10,3.20673873333927,0.583598450860906
+"pid483","infected","F",15,0.462302629603073,0.825692869103506
+"pid484","infected","F",14,0.525862307287753,1.0459006099624
+"pid485","unexposed, uninfected","M",12,-3.37230188587669,NA
+"pid486","unexposed, uninfected","F",11,-2.17378717041403,0.375219562326178
+"pid487","unexposed, uninfected","F",10,-1.14976774287812,NA
+"pid488","unexposed, uninfected","F",14,-1.30239128833175,0.222810927894071
+"pid489","infected","F",12,0.476502306293696,1.94188932600514
+"pid490","unexposed, uninfected","F",14,-2.40273197544762,0.747225088677903
+"pid491","exposed, uninfected","M",10,2.83968708384049,NA
+"pid492","unexposed, uninfected","F",12,NA,0.158260141385592
+"pid493","unexposed, uninfected","F",14,-2.05315881874332,0.346803964997721
+"pid494","unexposed, uninfected","M",12,-1.74480399900417,2.23153497869527
+"pid495","exposed, uninfected","F",NA,0.886983912095342,NA
+"pid496","unexposed, uninfected","M",11,-0.998486747636552,1.21933664417723
+"pid497","infected","F",17,0.193794581340626,0.129532577417493
+"pid498","unexposed, uninfected","F",12,-1.64444970300025,0.185935241710825
+"pid499","unexposed, uninfected","M",11,-3.13460804353385,1.89847976847813
+"pid500","exposed, uninfected","M",14,3.72807759473682,1.08653442760244
+"pid501","unexposed, uninfected","F",11,-1.02708324662388,0.331803818614422
+"pid502","exposed, uninfected","F",12,0.775262124035734,NA
+"pid503","infected","M",16,0.0644629199523479,0.0101269134157493
+"pid504","infected","F",13,0.707857825793326,1.39985730350131
+"pid505","infected","M",16,0.763408156577498,1.42540440030865
+"pid506","unexposed, uninfected","F",14,-2.50247778239387,NA
+"pid507","exposed, uninfected","F",13,0.472892977745389,11.6069174595988
+"pid508","infected","F",15,0.774831358576193,NA
+"pid509","exposed, uninfected","F",14,2.35450366092699,0.654169313138227
+"pid510","infected","M",16,0.721249970374629,3.68412063310271
+"pid511","unexposed, uninfected","F",10,-1.64503173898515,2.49421683076762
+"pid512","unexposed, uninfected","F",13,-2.05210511687113,0.17626289739459
+"pid513","unexposed, uninfected","F",13,-2.19593461871625,1.32917103649381
+"pid514","exposed, uninfected","M",NA,3.03811014600433,0.907895960367007
+"pid515","exposed, uninfected","F",11,1.63554228609494,0.259797545177914
+"pid516","unexposed, uninfected","F",11,-1.15072579734494,NA
+"pid517","unexposed, uninfected","M",11,NA,3.52267117179744
+"pid518","unexposed, uninfected","M",12,-1.16885938269316,NA
+"pid519","unexposed, uninfected","M",13,-3.24428785134423,1.77739153110267
+"pid520","infected","F",14,0.565547573845834,2.1186212274839
+"pid521","unexposed, uninfected","F",14,-1.32683369305232,1.71637642303706
+"pid522","unexposed, uninfected","F",14,-2.02627637644853,0.107468647496365
+"pid523","unexposed, uninfected","F",13,-2.19139216855602,0.512845805431146
+"pid524","exposed, uninfected","M",17,2.00131354755592,0.193691543832658
+"pid525","infected","F",16,0.823402378242463,3.00669579185823
+"pid526","unexposed, uninfected","M",15,-1.24949854684417,0.182647527732759
+"pid527","infected","F",11,0.0336296269670129,8.0234296271431
+"pid528","unexposed, uninfected","M",10,-1.91994035890801,NA
+"pid529","unexposed, uninfected","F",13,-2.63140929896637,NA
+"pid530","infected","M",15,0.565358423395082,NA
+"pid531","unexposed, uninfected","F",15,-2.63609983108505,0.11536215902319
+"pid532","infected","M",16,0.501032503088936,2.61877255177089
+"pid533","infected","F",16,0.731521180830896,2.45391325574292
+"pid534","unexposed, uninfected","M",12,-1.74724986493366,0.0862938426935814
+"pid535","unexposed, uninfected","F",12,-3.17194831284112,0.327581127531374
+"pid536","unexposed, uninfected","F",12,-1.33128567147497,0.0536755337894235
+"pid537","unexposed, uninfected","F",11,-3.65010093484436,0.21151353868356
+"pid538","unexposed, uninfected","F",11,NA,1.00057494843489
+"pid539","unexposed, uninfected","F",12,-2.31611832883308,2.02147207888011
+"pid540","unexposed, uninfected","F",10,-3.94824604732137,0.115014101573026
+"pid541","infected","F",13,0.746224745409563,0.931634952409012
+"pid542","unexposed, uninfected","F",15,-2.62287159487888,1.28508203521782
+"pid543","exposed, uninfected","M",12,1.34830408926692,2.5057118773182
+"pid544","unexposed, uninfected","F",11,-0.604852107470377,0.807675174763049
+"pid545","unexposed, uninfected","M",13,-1.36332558896105,0.253238739911854
+"pid546","unexposed, uninfected","M",10,-2.10843169699038,NA
+"pid547","infected","F",14,0.207482179161161,0.477237099266204
+"pid548","exposed, uninfected","F",11,2.19552905518189,NA
+"pid549","unexposed, uninfected","M",12,-0.337143552569595,0.141616664922481
+"pid550","exposed, uninfected","F",11,2.63915815978993,1.35530556974578
+"pid551","infected","M",13,0.209258429938927,0.842919472035212
+"pid552","unexposed, uninfected","F",12,-1.65244802497619,0.634936880124939
+"pid553","exposed, uninfected","F",12,0.858845805162432,0.486535829791897
+"pid554","unexposed, uninfected","F",11,NA,NA
+"pid555","unexposed, uninfected","F",13,-0.361255354878272,0.897343972283884
+"pid556","unexposed, uninfected","M",13,-2.87559247418957,1.63784271593022
+"pid557","unexposed, uninfected","F",12,-1.87824000135895,0.657076258250357
+"pid558","unexposed, uninfected","F",13,-0.637869339155018,NA
+"pid559","infected","F",14,0.89262037887238,0.291580180674272
+"pid560","infected","F",14,NA,3.19193847291407
+"pid561","unexposed, uninfected","F",12,-2.86978360563591,0.16525182912938
+"pid562","infected","F",16,0.220069464994594,NA
+"pid563","unexposed, uninfected","F",10,-2.84735007312957,0.957456329437924
+"pid564","unexposed, uninfected","M",14,-2.2606393920994,0.622178899170328
+"pid565","unexposed, uninfected","F",12,-2.41441970634189,0.0299265828417218
+"pid566","unexposed, uninfected","M",12,-2.18305079771943,0.63017373136911
+"pid567","infected","M",15,0.80840407172218,0.65339446250762
+"pid568","exposed, uninfected","F",13,2.2907228446435,0.721874135636976
+"pid569","infected","M",15,0.49943824345246,NA
+"pid570","exposed, uninfected","M",10,1.09865784474092,0.910305888572375
+"pid571","unexposed, uninfected","M",14,-2.32083991265818,0.459271632685377
+"pid572","infected","F",17,0.284947251901031,0.570366624667704
+"pid573","unexposed, uninfected","F",10,-0.295670602172902,1.4960313315953
+"pid574","infected","F",14,0.176969511667266,0.233047729756843
+"pid575","unexposed, uninfected","F",15,-2.33265731913352,0.315992143895374
+"pid576","unexposed, uninfected","M",13,-3.8222354175631,1.2132537993671
+"pid577","unexposed, uninfected","F",13,-0.58873760125322,0.645111477888745
+"pid578","exposed, uninfected","M",13,-0.16246900261166,0.437108884983613
+"pid579","unexposed, uninfected","M",10,-3.12376279439532,0.234846518350801
+"pid580","infected","F",14,0.162051138933748,NA
+"pid581","exposed, uninfected","F",14,1.03788097169625,2.19596498930306
+"pid582","unexposed, uninfected","F",11,-2.03325861011331,0.0272572654957469
+"pid583","infected","M",15,0.940245607402176,0.547931856879149
+"pid584","unexposed, uninfected","M",11,-2.0997905884419,NA
+"pid585","unexposed, uninfected","F",12,-1.0239682650776,0.397912598677695
+"pid586","exposed, uninfected","F",14,1.39789510155187,NA
+"pid587","exposed, uninfected","F",11,-0.0232976453336811,4.92918290230292
+"pid588","exposed, uninfected","F",14,3.15442128059814,0.12391186114311
+"pid589","exposed, uninfected","F",11,1.76930700230589,0.46554436470803
+"pid590","exposed, uninfected","F",11,1.63491123178509,NA
+"pid591","unexposed, uninfected","F",12,-1.29581982153449,2.02882897240621
+"pid592","exposed, uninfected","F",10,NA,0.0586755894000897
+"pid593","unexposed, uninfected","F",11,-2.53807078888486,0.182357413073203
+"pid594","exposed, uninfected","F",14,2.92726539996531,0.253628800363917
+"pid595","exposed, uninfected","F",12,2.04613459284049,0.0677382319432839
+"pid596","unexposed, uninfected","F",11,-1.51218536483632,NA
+"pid597","exposed, uninfected","F",12,1.69955059164444,1.04241558931051
+"pid598","unexposed, uninfected","F",11,-1.49930538571921,NA
+"pid599","infected","F",15,0.439699929207563,1.83985092308929
+"pid600","unexposed, uninfected","F",12,-2.96590321013358,1.27305500865517
+"pid601","unexposed, uninfected","F",11,-1.83734529188174,0.311119683045464
+"pid602","unexposed, uninfected","F",12,-4.07823754188738,NA
+"pid603","infected","M",15,0.152774207061157,0.146181110646458
+"pid604","unexposed, uninfected","F",12,-1.30323122143509,0.721718111282885
+"pid605","exposed, uninfected","F",10,NA,NA
+"pid606","unexposed, uninfected","F",12,NA,3.18345063218652
+"pid607","exposed, uninfected","F",17,3.10695440248067,0.119115913463476
+"pid608","unexposed, uninfected","M",13,-1.23953763803216,0.543353140533923
+"pid609","exposed, uninfected","M",10,0.852600559000158,0.0734454292651092
+"pid610","unexposed, uninfected","M",13,-0.887637158737404,NA
+"pid611","unexposed, uninfected","M",11,-1.96733604249856,NA
+"pid612","infected","F",10,0.282460935879499,0.421506866922803
+"pid613","exposed, uninfected","F",11,2.48092606472532,0.286573965209377
+"pid614","exposed, uninfected","F",10,2.13317762758461,NA
+"pid615","exposed, uninfected","M",11,0.537135537671806,NA
+"pid616","unexposed, uninfected","M",NA,NA,0.452173747216956
+"pid617","infected","M",14,0.509830849710852,0.909643979833331
+"pid618","exposed, uninfected","F",13,2.17279361838729,NA
+"pid619","unexposed, uninfected","F",14,NA,0.579571229086049
+"pid620","unexposed, uninfected","M",13,-2.60615111526422,0.116084180354883
+"pid621","unexposed, uninfected","F",12,-2.30472106896671,NA
+"pid622","unexposed, uninfected","F",13,-1.37046390011553,0.568705923490466
+"pid623","unexposed, uninfected","F",12,-1.10482801972446,1.16188669025385
+"pid624","exposed, uninfected","F",11,2.00626521125563,0.481478918422771
+"pid625","unexposed, uninfected","F",13,0.273483520447479,NA
+"pid626","unexposed, uninfected","F",11,-0.826502427367609,2.04714404225827
+"pid627","infected","F",12,0.10364975198172,0.344010029641179
+"pid628","exposed, uninfected","F",11,1.62005404483313,NA
+"pid629","unexposed, uninfected","M",12,0.919140130717616,1.22020768089753
+"pid630","unexposed, uninfected","F",13,-1.32258449956167,2.45582976256426
+"pid631","exposed, uninfected","M",13,3.46026574621257,2.34069441372874
+"pid632","infected","F",14,0.815142195438966,5.50513436117077
+"pid633","unexposed, uninfected","M",11,-2.32439330048366,0.467420976414838
+"pid634","unexposed, uninfected","F",12,-2.27470421822581,NA
+"pid635","exposed, uninfected","F",11,0.580837073814761,1.20625171737465
+"pid636","unexposed, uninfected","M",12,-1.88315465501392,1.3797163530838
+"pid637","unexposed, uninfected","F",10,-1.68083976135188,NA
+"pid638","infected","F",17,0.676517235348001,NA
+"pid639","unexposed, uninfected","M",12,-5.23315213292314,0.111645070217939
+"pid640","exposed, uninfected","F",12,3.26428122406637,0.310508637009181
+"pid641","unexposed, uninfected","M",11,-1.97048216967852,NA
+"pid642","exposed, uninfected","F",16,1.32691317949551,0.194508676950699
+"pid643","exposed, uninfected","F",NA,2.11958829149096,0.498600528362891
+"pid644","exposed, uninfected","M",12,1.48560349100871,0.839202808338751
+"pid645","exposed, uninfected","M",14,1.93188842613346,0.894081719053043
+"pid646","infected","F",15,0.306312398752198,1.58749721233054
+"pid647","unexposed, uninfected","F",14,-1.28111127014586,0.48252019352564
+"pid648","unexposed, uninfected","M",10,-1.74834893097103,1.49177489325699
+"pid649","infected","M",12,0.267370768357068,NA
+"pid650","infected","F",16,0.368004227057099,NA
+"pid651","unexposed, uninfected","M",13,-1.73563573016206,NA
+"pid652","unexposed, uninfected","F",11,-1.7319560958563,NA
+"pid653","unexposed, uninfected","F",12,-1.56306942296052,NA
+"pid654","exposed, uninfected","F",13,2.49084091766159,0.499049405923147
+"pid655","exposed, uninfected","F",14,1.79466301272947,NA
+"pid656","unexposed, uninfected","F",13,-1.33680138431294,NA
+"pid657","infected","F",15,0.299209151882678,NA
+"pid658","unexposed, uninfected","F",12,-2.37049751709212,NA
+"pid659","exposed, uninfected","F",11,1.89638073145823,0.0874579884431107
+"pid660","infected","F",16,0.306876750895754,NA
+"pid661","infected","M",14,0.210460829315707,1.70976553652543
+"pid662","exposed, uninfected","F",12,2.54382596895619,NA
+"pid663","infected","F",13,0.646336852340028,NA
+"pid664","unexposed, uninfected","M",13,-2.34887673653991,0.753815455215318
+"pid665","infected","F",12,0.525862307287753,0.500420202368989
+"pid666","unexposed, uninfected","F",14,-3.76325506654115,0.288388925167863
+"pid667","unexposed, uninfected","F",10,-1.66140395290009,NA
+"pid668","unexposed, uninfected","F",11,-2.66656502955927,0.0686260590019228
+"pid669","unexposed, uninfected","F",13,-2.23864662432764,0.232207346908922
+"pid670","unexposed, uninfected","F",12,-3.18776528245719,0.60574352353016
+"pid671","unexposed, uninfected","F",13,-1.61506467823142,NA
+"pid672","unexposed, uninfected","F",15,-1.33342048434552,1.61486147056263
+"pid673","infected","F",13,0.687239063903689,1.64203091470177
+"pid674","infected","F",13,0.926671815570444,0.296716403207504
+"pid675","exposed, uninfected","F",10,1.58980048716664,0.73804786460604
+"pid676","unexposed, uninfected","F",12,-1.05136742674485,0.231083121164695
+"pid677","infected","F",10,0.341289446922019,NA
+"pid678","exposed, uninfected","F",13,2.82684753028499,0.0931482555867827
+"pid679","unexposed, uninfected","F",13,-1.19138072715371,6.31269535490037
+"pid680","unexposed, uninfected","F",10,-1.01341938604544,NA
+"pid681","infected","F",NA,0.914186872309074,0.989725636535172
+"pid682","unexposed, uninfected","F",11,NA,NA
+"pid683","exposed, uninfected","F",12,2.93781113523209,NA
+"pid684","infected","M",14,0.0644629199523479,NA
+"pid685","infected","F",14,0.707857825793326,0.0998435153096138
+"pid686","unexposed, uninfected","M",13,-1.18631713747351,2.65223936454596
+"pid687","infected","F",12,0.636351579101756,1.01708731478651
+"pid688","infected","F",15,0.597481159493327,NA
+"pid689","unexposed, uninfected","F",11,-2.84652265316362,0.735239815715997
+"pid690","unexposed, uninfected","F",10,-2.24576317912873,NA
+"pid691","infected","F",20,0.721249970374629,1.46950272227534
+"pid692","infected","F",14,0.837943077087402,2.48126109900738
+"pid693","unexposed, uninfected","M",14,-1.01455661059513,NA
+"pid694","unexposed, uninfected","M",11,-1.81675247693281,0.0469502942060894
+"pid695","infected","F",10,0.96091044251807,1.52350832425226
+"pid696","unexposed, uninfected","F",13,-2.62053369661594,0.492083970426451
+"pid697","unexposed, uninfected","M",12,-0.343956963001264,1.33111479341058
+"pid698","unexposed, uninfected","F",12,-0.190194614416124,1.48049288898344
+"pid699","unexposed, uninfected","F",13,-3.17503676801214,0.513749750366627
+"pid700","exposed, uninfected","M",13,2.93099146612641,NA
+"pid701","unexposed, uninfected","F",13,-1.64637455107271,3.16326415595115
+"pid702","infected","F",13,0.827505819266662,1.12294935740939
+"pid703","unexposed, uninfected","M",15,-2.5799569890194,NA
+"pid704","exposed, uninfected","F",11,0.768597220909392,3.71808492291929
+"pid705","unexposed, uninfected","F",16,-2.17942858694562,0.986871815437029
+"pid706","infected","F",14,0.823402378242463,1.58221092415349
+"pid707","unexposed, uninfected","F",10,-1.97637338507859,0.311208092817832
+"pid708","infected","F",13,0.0336296269670129,4.47964713982025
+"pid709","infected","F",16,0.517875767545775,0.346176234952732
+"pid710","exposed, uninfected","F",13,0.836117599813643,0.0303514688327562
+"pid711","infected","F",14,0.565358423395082,1.16259565057782
+"pid712","infected","F",16,0.849961611907929,3.39637255474736
+"pid713","unexposed, uninfected","M",10,-0.528281313814201,3.89340788481619
+"pid714","infected","M",14,0.731521180830896,0.713466642858673
+"pid715","unexposed, uninfected","M",11,-2.42172187007019,0.460810695253172
+"pid716","infected","F",13,0.196294847410172,1.03189580240275
+"pid717","unexposed, uninfected","M",12,-2.49227996822789,0.00467764945068723
+"pid718","unexposed, uninfected","F",13,-0.772282882687249,0.746153639013576
+"pid719","infected","F",16,0.456208443734795,0.695352618475509
+"pid720","unexposed, uninfected","F",13,-0.450016616017537,NA
+"pid721","exposed, uninfected","M",11,0.004537852461169,0.294725305264874
+"pid722","unexposed, uninfected","M",10,-2.64711725063236,NA
+"pid723","exposed, uninfected","F",10,2.88003799231003,0.440440922514031
+"pid724","exposed, uninfected","F",11,2.34238742000164,NA
+"pid725","unexposed, uninfected","F",13,-2.50445152458087,0.708384527651595
+"pid726","unexposed, uninfected","F",13,-3.58139680993034,0.104286677036469
+"pid727","infected","F",12,0.781490558292717,0.528372579242342
+"pid728","unexposed, uninfected","F",10,-2.7165766990707,0.598054876908636
+"pid729","infected","F",15,NA,9.73982463610363
+"pid730","unexposed, uninfected","F",16,-2.95268545493929,0.568976128170894
+"pid731","infected","F",13,0.412295213434845,1.98688829780144
+"pid732","unexposed, uninfected","F",14,-2.64904301737912,NA
+"pid733","exposed, uninfected","F",14,3.33675821086468,0.503758111864956
+"pid734","unexposed, uninfected","F",11,-1.10129727559726,0.219664951086262
+"pid735","infected","F",15,0.361310022417456,1.29556302238062
+"pid736","unexposed, uninfected","M",10,-1.44556144765487,0.665272857055459
+"pid737","exposed, uninfected","M",13,3.37414476272802,NA
+"pid738","unexposed, uninfected","M",13,-3.13521292940752,NA
+"pid739","unexposed, uninfected","F",14,-2.2700796109999,NA
+"pid740","unexposed, uninfected","F",12,NA,0.0474155973079199
+"pid741","unexposed, uninfected","F",12,-2.21413117369664,0.877186591932393
+"pid742","unexposed, uninfected","F",14,-2.81778246292496,1.48551042383796
+"pid743","infected","F",15,0.220069464994594,1.67927285059383
+"pid744","unexposed, uninfected","F",13,-1.66985839014213,0.263995758865163
+"pid745","exposed, uninfected","F",12,0.573442826302262,0.841008257049681
+"pid746","exposed, uninfected","M",12,2.04230266438981,NA
+"pid747","unexposed, uninfected","M",11,-1.89947760162494,NA
+"pid748","infected","F",13,0.80840407172218,0.362882343595044
+"pid749","exposed, uninfected","F",12,NA,0.884909057704858
+"pid750","infected","F",12,0.49943824345246,NA
