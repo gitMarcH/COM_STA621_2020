@@ -58,7 +58,7 @@ $$\,$$
 
 3. $\,$ Basic graphs
 
-4. $\,$ Simple regression & association statistics [Section 7]
+4. $\,$ Simple regression & association statistics [see regression lecture]
 
 
 
@@ -327,7 +327,7 @@ print(tit[11:14,])
 
 A very useful way to summarise two categorical variables together is to produce a **cross-tabulation table**, also called a **contingency table**.
 
-Apart from summarising 2 variables simulateneously, a contingency table is also useful to assess whether the 2 variables are associated with each other and a first step in an association test (see Sections 7 & 8).
+Apart from summarising 2 variables simulateneously, a contingency table is also useful to assess whether the 2 variables are associated with each other and a first step in an association test (see lecture on hypothesis testing).
 
 
 ## Tabular data / contingency tables
@@ -570,7 +570,7 @@ A **$100\cdot(1-\alpha)$% confidence interval** for a population parameter of in
 
 ## Confidence intervals
 
-Imagine repeating an experiment a very lage number of times, e.g. $N=10,000$, and that each time you compute a 95% confidence interval for the same parameter. Assuming the model you use to construct the confidence intervals is correct, then you would expect that 9,500 of the confidence intervals you computed contained the true, unknown but fixed population value of $\theta$.
+Imagine repeating an experiment a very large number of times, e.g. $N=10,000$, and that each time you compute a 95% confidence interval for the same parameter. Assuming the model you use to construct the confidence intervals is correct, then you would expect that 9,500 of the confidence intervals you computed contained the true, unknown but fixed population value of $\theta$.
 
 In other words, we are 95% sure, for each of the 95% confidence interval, that it contains the true value.
 
