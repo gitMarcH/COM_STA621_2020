@@ -513,12 +513,12 @@ $$E[Y|X]=\begin{cases}
 
 Suppose we now observe data $D=\{\mathbf{y}, \mathbf{x}\}$ consisting of $n$ observations for 1 response and $p$ predictors. We can compute the probability density of observing these data:
 
-$$L(D|\mathbf{\theta})=\prod_{i=1}^n f(y_i;\mu_i=\beta_0+\beta_1 x_{i1}+\ldots+\beta_p x_{ip},\sigma_i)$$
-where $\mathbf{\theta}=(\beta_0,\ldots,\beta_k,\sigma)$, and  $f(;\mu,\sigma)$ is the pdf of the normal distribution with mean $\mu$ and variance $\sigma^2$.
+$$L(D|\mathbf{\theta})=\prod_{i=1}^n f(y_i;\mu_i=\beta_0+\beta_1 x_{i1}+\ldots+\beta_p x_{ip},\sigma_x)$$
+where $\mathbf{\theta}=(\beta_0,\ldots,\beta_k,\sigma_x)$, and  $f(;\mu,\sigma)$ is the pdf of an exponential family distribution with mean $\mu$ and variance $\sigma^2$.
 
 $$\,$$
 
-The parameters $\beta_0,\beta_1,\dots,\beta_p,\sigma$ that maximise the likelihood $L(D|\mathbf{\theta})$ are known as the **maximum likelihood estimates**.
+The parameters $\beta_0,\beta_1,\dots,\beta_p,\sigma_x$ that maximise the likelihood $L(D|\mathbf{\theta})$ are known as the **maximum likelihood estimates**. Note that in GLMs $\sigma_x$ can depend on the predictor variables.
 
 
 ## Generalised linear model
@@ -758,7 +758,7 @@ We can then test $H_0: \mathbf{\beta}_2=\mathbf{\beta}_2^0$ against $H_1:\mathbf
 
 The likelihood ratio test is given by
 $$\,$$
-$$2[L(\hat{\mathbf{\beta}})-L(\hat{\mathbf{\beta}}_1,\mathbf{\beta}_2^0)]\sim\chi^2_{q}$$
+$$2[l(\hat{\mathbf{\beta}})-l(\hat{\mathbf{\beta}}_1,\mathbf{\beta}_2^0)]\sim\chi^2_{q}$$
 
 ## Generalised linear model
 
@@ -826,6 +826,10 @@ Test statistic:
 
 $$T=\frac{\hat{\beta_j}-b}{se(\hat{\beta}_j)}\sim T_{n-p-1}$$
 
+## Generalised linear model
+
+The same distributional results we have used to compute p-values can also be used to construct confidence intervals for the regression parameters.
+
 
 ## Generalised linear model: confidence bands
 
@@ -844,7 +848,7 @@ The first one takes only the uncertainty of the model fit into account, the seco
 
 ## Generalised linear model: confidence bands
 
-We have seen that the estimators $\hat{\beta}$ are asympotically normally distributed. This implies that, on the link function scale (i.e. for the linear predictor $\eta$), we can construct confidence intervals using the asympotic normal distribution, then back transform to the scale of the response variable.
+We have seen that the estimators $\hat{\beta}$ are asymptotically normally distributed. This implies that, on the link function scale (i.e. for the linear predictor $\eta$), we can construct confidence intervals using the asympotic normal distribution, then back transform to the scale of the response variable.
 
 For a 95% confidence interval for the mean response:
 
@@ -984,7 +988,7 @@ Logistic regression is a *direct probability model*: no distributional assumptio
 
 Binomial data can be presented in 2 forms:
 
-* ungrouped; every $Y_i\in\{0,1\}$ and $m_i=1$
+* ungrouped; every $Y_i\in\{0,1\}$
 
 * grouped; our data has been grouped (e.g. by class, by household, by village) and we only observe the number of events among $m_i$ trials in each group: $Y_i\in\{0,1,\ldots,m_i\}$ and $m_i\geq1$
 
@@ -1339,7 +1343,7 @@ plot(predict(modCD4,data=Tbreg),residuals(modCD4),
 
 For non-normal distribution GLMs, the variance function of the model can imply a trend of the variance with the mean.
 
-for this reason, Pearson residuals are very useful in GLMs: these residuals are standardised by the estimated variance function. In other words, if the Pearson residuals exhibit non-constant variance, then this suggest we have misspecified the data distribution.
+For this reason, Pearson residuals are very useful in GLMs: these residuals are standardised by the estimated variance function. In other words, if the Pearson residuals exhibit non-constant variance, then this suggest we have misspecified the data distribution.
 
 
 ## Diagnostics
@@ -1526,4 +1530,4 @@ The `rms` package provides a full set of tools for all kinds of regression probl
 ##
 
 $$\,$$ $$\,$$
-[end of Session 5]
+[end of Session 6]

@@ -1,0 +1,536 @@
+---
+title: "MSc Bioinformatics"
+author: "James Chirombo"
+date: "16/01/2020"
+output: 
+  powerpoint_presentation:
+    reference_doc: COM_Stats_Template.pptx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T,collapse=T,fig.width=16, fig.height=9, dpi=150, highlight=T)
+
+require(tidyverse)
+require(knitr)
+require(gridExtra)
+```
+
+
+# Study designs
+
+## Outline
+
+In this session, we will cover these aspects:
+
+* Introduction to epidemiological studies
+* Study design considerations
+* Understanding study hypothesis
+* Elements of hypothesis testing
+* Sample size considerations
+* Sample size calculation practice
+
+## Epidemiological studies
+
+* Recall our previous lesson on hypothesis testing
+  +  To test hypotheses, a formal study has to be carried out
+* Designed to answer research questions 
+* Study type will depend on the questions to be answered
+
+## Summary of epidemiological studies
+
+![Summary of epidemiological studies: source -https://www.cisncancer.org/research/how_cancer_is_studied/epidemiological/study_types.html](images/epi_study_types.jpg)
+
+
+## Cross-sectional studies
+
+* Measure frequency (prevalence) of exposure or outcome in a defined population at a particular point in time
+  + Can be descriptive or analytical if frequency of outcome is compared according to exposure status
+
+
+## Cohort studies
+
+Key steps:
+
+* Define the study question 
+* Identify study population (cohort) without the outcome
+* Classify cohort according to exposure status
+* Follow the cohort over time to observe the outcome (prospectively or retrospectively)
+  + Can be descriptive or analytical if frequency of outcome is compared according to exposure status
+
+## Case-control study
+
+Key steps:
+
+* Define the study question 
+* Identify individual cases of the outcome of interest (cases)
+* Identify a representative group of individuals without the outcome (controls)
+* Compare cases and controls to assess differences in past exposure to one or more risk factors
+
+Q: Can a case-control study be descriptive?
+
+## Interventional or experimental
+
+Key steps:
+
+* Define the study question 
+* Allocate exposure (the intervention) to one group
+* Another group allocated to no intervention (control or standard of care)
+* Follow up the groups over time 
+* Compare frequency of outcome in the intervention and control groups
+
+Q: Can an intervention study be descriptive?
+
+## Types of interventional studies
+
+* Randomized controlled trial (gold standard)
+  + Randomized means allocation to the groups is random (note that random allocation is not the same as random sampling)
+  + Controlled means one group receives the intervention while another does not
+  + Trial means experiment or study
+* Individually RCT
+  + Randomize individual subjects / objects
+* Cluster RCT aka CRT
+  + Randomize groups of subjects / objects e.g. Villages, schools
+  + Requires special methods: sample size calculation and analysis
+* Quasi-experimental design: no randomization
+  + Example: a before-after comparison of a single site intervention
+
+## Quick note on ethics in RCTs
+
+* Recall that an RCT is similar to a cohort (observational) study
+* Differs because RCT allocates the exposure (intervention) other than observing a naturally occurring exposure
+* Investigator cannot allocate a harmful or withhold a beneficial intervention 
+* Equipoise means that there is no evidence that one of the interventions is superior to the other 
+
+## Complex intervention studies
+
+* Factorial design eg 2x2 
+  + ZAMSTAR trial (Ayles et al Lancet 2013)
+* Adaptive design eg seamless multi-arm multi-stage design 
+  + PASTAL trial (Choko et al Trials 2017)
+* Package of interventions compared to a simple standard of care 
+  + LINK4HEALTH trial in Swaziland (McNairy et al PLoS Med 2017)
+  
+Q: what is the main problem with this sort of intervention?
+
+## General design considerations
+
+* Research question / hypothesis
+* Significance level
+* Power
+* Sample size
+* Money 
+* Logistics  
+
+# Field experimental designs
+
+## Completely Randomized Design (CRD)
+
+* Used to study the effect of one factor - does not take into account any extraneous source of variation.
+* $N$ units and $m$ different treatments.
+* Treatments are assigned to experimental units at random.
+* Experimental units are relatively homogeneous.
+* Experiment will use very few replicates.
+* Each treatment is replicated the same number of times (balanced design).
+
+## CRD...
+
+Mostly, focus is on the following:
+
+* Are there treatment differences betwen the different experimental units - comparison of means
+* Which of the units differ?
+
+Advantages
+
+* Easy to implement
+* Controls a single extraneous source of variation.
+  + Removes its effect from the estimate of experimental error.
+
+Disdvantage
+
+* Experimental units are rarely homogeneous to allow for effective application of the CRD.
+
+## Randomized Complete Block Design (RCBD)
+
+* The field is divided into units to account for any variation in the field. 
+* Units within the block are homogeneous.
+* Treatments are then assigned at random to the subjects in the blocks-once in each block.
+* Provides more accurate results compared to the CRD due to the blocking.
+
+## RCBD
+
+![RCBD - 4 blocks and 4 treatments](images/rcbd.gif)
+
+## Latin square design
+
+* Experiment with $m$ treatments.
+* 2 blocking factors.
+
+* Advantage: 
+  + Reduces more experimental error than with 1 blocking factor.
+  + Small-scale studies can isolate important treatment effects.
+  
+## Latin square design
+
+![Latin square design](images/latinsquare.jpg)
+
+## Other field experimental designs
+
+* Factorial designs.
+* Split-plot design.
+* Graeco- Latin square.
+
+## Hypothesis 
+
+Definition:
+
+* A supposition, arrived at from observation or reflection, that leads to refutable predictions
+* Any claim cast in a form that will allow it to be tested and refuted
+
+Example:
+
+Suppose we believe that everybody who lives up to age 90 or more is a non-smoker.
+We could investigate this in two ways:-
+
+* Prove the hypothesis by finding every single person aged 90 or more and checking that they are all non-smokers
+* Disprove the hypothesis by finding just one person aged 90 or more who smokes
+
+## Null Hypothesis (H0)
+
+* Definition 1: There is NO association between the risk factor and outcome in a population.
+
+* Definition 2: The hypothesis that the factor of interest is not associated with or not different from another factor or a pre-specified value. 
+
+* Example: 
+
+  + There is no difference in the efficacy of a new drug (Drug A) for malaria prophylaxis in contrast to a currently approved drug (Drug B).
+
+* Formal basis for testing statistical significance.
+* Start with proposition that there is no difference.
+
+* Statistical tests can estimate the probability an observed association could be due to chance.
+
+## Alternative hypothesis (Ha)
+
+* Definition 1: There IS an association between the risk factor and outcome in the population.
+
+* Definition 2: The hypothesis that the factor of interest is “statistically” different from another factor or the pre-specified value.
+
+* Example: 
+  + The new drug (Drug A) for malaria prophylaxis has better efficacy in preventing malaria in contrast to a currently approved drug (Drug B).
+
+* Can’t be tested directly.
+
+* Accepted by exclusion if the test of statistical significance rejects the null hypothesis.
+
+## Statistical hypothesis
+
+Underlying Statistical Principles:
+
+* A hypothesis is either true or not in the real world.
+* Can’t study the whole world; therefore must test hypothesis in a sample.
+* Can never absolutely prove (or disprove) the hypothesis.
+
+* Therefore we use statistical tests to determine whether there is sufficient evidence to reject the null hypothesis.
+
+## One and Two tailed Hypotheses
+
+* One-tailed Hypotheses: (one-sided) specifies a direction of association between a predictor and outcome variable.
+  + E.g. The new drug (Drug A) for malaria prophylaxis has better efficacy in preventing malaria in contrast to a currently approved drug (Drug B).
+
+* Two-tailed Hypotheses: (two-sided) specifies only that an association exists; it does not specify a direction.
+  + E.g. The new drug (Drug A) for malaria prophylaxis has a different efficacy in preventing malaria in contrast to a currently approved drug (Drug B).
+  + In other words, Drug A could be worse than Drug B 
+	OR Drug A could be better than Drug B.
+
+## Type I and  Type II Errors
+
+* Type I error: (False positive) reject a null hypothesis that is actually true in a population.
+
+  + In other words saying that the new drug (Drug A) for malaria prophylaxis has better efficacy in preventing malaria in contrast to a currently approved drug (Drug B), when it does not.
+
+* Type II error: (False negative) fail to reject a null hypothesis that is actually false in the population. 
+
+  + In other words saying that there is no difference in the efficacy of a new drug (Drug A) for malaria prophylaxis in contrast to a currently approved drug (Drug B), when Drug A is better than Drug B
+  
+## Errors in hypothesis testing
+
+![Types of errors in hypothesis testing](images/errors.png)
+
+## Alpha and Beta
+
+* Alpha (α): The probability of making a Type I error (rejecting the null hypothesis when it is true).
+
+* Beta (Β): The probability of making a Type II error (failing to reject the null hypothesis when it is actually false).
+  + Power = 1-β (The probability of finding a significant result if one exists)
+
+* Ideally alpha and beta would be set to zero.
+* In practice they are made as small as possible.
+* Reducing them requires an increase in sample size.
+* Most studies use an alpha=0.05 and a beta=0.20.
+
+## Statistical hypothesis testing
+
+* Deciding whether to accept or reject some hypothesis (usually the null hypothesis – H0).
+
+* An effect is considered statistically significant if the P-value is less than some preset arbitrary value (usually alpha is set at 0.05 ).
+
+## P-Values
+
+* Definition 1: The probability of the obtained estimate being as far from the null hypothesis or further, assuming the null hypothesis is true.
+
+* Definition 2: The probability under the null hypothesis of observing a test statistic (t-statistic, Χ2 statistic) computed from the data of equal or greater absolute value, assuming there are no sources of bias in the data collection or analysis procedures.
+
+* P (test statistic of equal or greater value | H0)
+
+* Assumptions: 
+
+  + Statistical model is correct for variability
+  + No bias
+
+## Statistical significance
+
+* Definition: Conclusion that the observed result for the factor of interest is sufficiently different from the other factor such that the difference is “unlikely” to have occurred by chance alone.
+
+* Statistical significance is usually determined from a p-value (probability value)
+
+## Chance
+
+* Definition: Chance is an outcome of a random process – an outcome that could not be predicted under any circumstances (e.g. a flip of a coin).
+
+## 95% Confidence Interval
+
+* Definition 1: If a study is replicated an infinite number of times, a 95% confidence interval should contain the correct point estimate 95% of the time.
+
+* Definition 2: If the underlying statistical model is correct and there is no bias, a confidence interval derived from a valid test will contain the true parameter with a frequency no less than its confidence level over an unlimited number of repetitions of the study. 
+
+* Assumptions: 
+  + Studies are identical except for random error.
+  + Statistical model is correct for variability.
+  + No bias.
+
+## Sample size considerations
+
+* Sample size calculations may be based on the precision or the power of a study
+  + Sample size is the number of units in each group in a study
+  + Precision refers to the desired width of the CI for a sample estimate (mostly applicable to descriptive studies)
+  * Power = $1-\beta$ (The probability of finding a significant result if one exists)
+
+## Basic elements of sample size calculations
+
+* The objective of the study  (the null and alternative hypotheses of a study)
+
+* Most epidemiological studies aim to estimate some characteristic of the population. 
+
+* This may be a proportion, an effect e.g. Risk ratio/odds ratio, or a difference;
+
+* It depends on the type of study and outcome being studied. 
+
+## Basic elements of sample size calculations
+
+Study objectives may include some of the following:
+
+* Estimating a “Single value”: e.g.
+  + To examine what proportion of the population of Malawi currently smokes. 
+  + To estimate the prevalence of anaemia in under-fives in a malaria endemic area. 
+* “Comparison of outcomes”: 
+  * To examine the association between hormone replacement therapy and cardiovascular disease. 
+  * To examine how much the risk of malaria will be reduced with the use of impregnated bed-nets. 
+  * To examine the effect of a new intervention on the incidence of stomach cancer. 
+
+## Relationship between sample size and power
+
+![Relationship between power and sample size](images/power.png)
+
+## Notes on sample size
+
+Sometimes sample size is too large-may not be funded and can be unethical
+
+* Reduce power of the study
+* Reduce precision by increasing margin of error
+* Change objective (outcome of interest)
+
+## Sample size for estimating a proportion
+
+Example: 
+
+* Suppose you want to estimate the proportion of all children aged 12 to 24 months in Blantyre district who received measles vaccine in the year 2011.
+
+## Sample size for estimating a proportion
+
+There are 3 steps to calculate sample size for a proportion:
+
+* First, provide an estimate of the proportion of children immunised – usually obtained from previous studies e.g. 80% 
+
+* If you have no idea, choose 50% as most conservative estimate
+
+* Decide confidence level. e.g. 95%
+
+* Decide margin of error e.g. 5% (absolute)
+
+* The sample size is 32 (n.b. sample size is almost always rounded upwards to gain power)
+
+## Sample size for estimating a proportion
+
+The sample size for estimating a single proportion is given by:
+
+
+$$n=\frac{p(1-p)}{(E/1.96)^2}$$
+
+
+* where 
+  + n = minimum sample size;  
+  + p = expected prevalence; 
+  + E = margin of error (expressed as a proportion); 
+  + 1.96 is the Z value corresponding to 0.05 significance level
+
+
+## Sample size for comparing two proportions
+
+Suppose you want to study and compare the prevalence of HIV in 2 populations (e.g. Ndirande vs Chilomoni).  To calculate the required sample size, you need:
+
+* Estimate of prevalence of HIV in each area
+
+* Significance level for the comparison  e.g.0.05
+
+* The power to detect the difference E.g. 0.9 (90% power)
+
+## Sample size for comparing two proportions
+
+* Suppose the prevalence is 10% and 15%  
+
+* The sample size required is 1836
+
+* Note that formula has been omitted, we will practice this in R soon! 
+
+## Sample size for estimating a mean
+
+* Provide estimate of standard deviation of mean you intend to estimate -usually from previous studies 
+
+* Decide  confidence level. e.g 95% confidence interval
+
+* Decide how much variation around the true level you will allow in the estimation (margin of error). 
+
+$$n=\frac{(Z_{\alpha/2})^2\sigma^2}{E^2}$$
+
+## Sample size for estimating a mean
+
+Example:  
+
+* An investigator wants to estimate the mean systolic blood pressure in children with congenital heart disease who are between the ages of 3 and 5. How many children should be enrolled in the study? The investigator plans on using a 95% confidence interval (so $Z=1.96$) and wants a margin of error of 5 units. The standard deviation of systolic blood pressure is unknown, but the investigators conduct a literature search and find that the standard deviation of systolic blood pressures in children with other cardiac defects is between 15 and 20. To estimate the sample size, we consider the larger standard deviation in order to obtain the most conservative (largest) sample size
+
+* $\sigma = 20$ and $\delta = 5$
+
+* The sample is 62
+
+## Sample size for comparing two means
+
+* First, provide an estimate of the standard deviation of two means you intend to compare -This is usually obtained from previous studies 
+
+* Decide what your confidence level will be. E.g 95% confidence interval i.e. significance level of 0.05 
+
+* Decide power of your study: 0.8 or 0.9 (80% OR 90%)
+
+## Sample size for comparing two means
+
+Example: 
+
+*A two arm parallel group study to determine whether Drug X increases QTc (a measure of ECG) following 1 week dosing.  Subjects will be randomised to receive either Drug X or placebo for 1 week.  QTc will be measured at baseline and at the end of the trail. 
+
+* Assumptions for sample size
+
+  + Primary endpoint = QTc in msec
+
+  + Parallel Group 
+
+  + Alpha= 5% 
+
+  + Power = 90%
+
+  + Mean change for Drug X is 8.32. For placebo, assume the mean change is 7.90
+  
+  + standard deviation is 2.2
+
+* Total sample size is 1156
+
+## Useful reading and practice for sample size calculation in R
+
+* https://www.statmethods.net/stats/power.html
+* Theory behind sample size
+  + Normal distribution
+  + Simulations are better (give PASTAL trial example)
+  + Statistician may be needed
+
+## Sample size for CRT
+
+* Need to account for the additional sampling error
+  + Simple random sampling violated 
+  + Within and between cluster variation 
+* Intra cluster correlation coefficient (ICC)
+* Design effect (Deff)
+* K
+* Simplest solution: Adjust final sample size by multiplying by the Deff
+
+## Analysis of CRTs
+
+* Cluster level summaries approach
+  + Generally uses t-test as it is assumed robust to skewed distributions
+  + Log transformation may be considered for positive skew
+* Individual level data modelling (Session 5, analysis of hierarchical data)
+  + Robust standard errors
+  + Generalized estimating equations (random effects models)
+
+## Sample size calculation practical
+
+## Two sample proportions
+
+* Suppose you want to study and compare the prevalence of HIV in 2 populations (e.g. Ndirande vs Chilomoni).
+* Suppose prevalence is 10% and 15%
+* Power = 90%, alpha = 5%
+* In R type:
+
+```{r}
+power.prop.test(p1=0.10,p2=0.15,sig.level = 0.05,power = 0.90)
+
+```
+
+## One sample mean
+
+* An investigator wants to estimate the mean systolic blood pressure in children with congenital heart disease who are between the ages of 3 and 5. How many children should be enrolled in the study? The investigator plans on using a 95% confidence interval (so $Z=1.96$) and wants a margin of error of 5 units. The standard deviation of systolic blood pressure is unknown, but the investigators conduct a literature search and find that the standard deviation of systolic blood pressures in children with other cardiac defects is between 15 and 20. To estimate the sample size, we consider the larger standard deviation in order to obtain the most conservative (largest) sample size
+
+## One sample mean
+
+```{r}
+sampleSize <- function(sigma,E){
+  Z <- qnorm(0.975)
+  n <- Z^2*sigma^2/E^2
+  return(n)
+}
+
+```
+
+```{r}
+n = sampleSize(sigma=20,E=5)
+print(n)
+```
+
+* A sample size of 62 is needed.
+
+
+## Two sample means
+
+A two arm parallel group study to determine whether Drug X increases QTc (a measure of ECG) following 1 week dosing.  Subjects will be randomised to receive either Drug X or placebo for 1 week. QTc will be measured at baseline and at the end of the trail. 
+
+
+* meanX=8.32; meanY = 7.90
+* $\alpha$ = 0.05
+* Power = 0.90
+* sd = 2.2
+
+## Solution
+
+
+```{r}
+power.t.test(delta = 0.42, sig.level = 0.05, power = .9, type = "two.sample",sd=2.2)
+
+```
+
