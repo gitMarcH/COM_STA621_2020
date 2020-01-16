@@ -19,7 +19,7 @@ require(gridExtra)
 
 ## Preliminaries
 
-In this session we will cover basic R commands, how to read data in, write data or results to files, merge data tables, produce various data summary statistics etc. We will not cover data visualisation (later session).
+In this session we will cover linear regression, the linear model and the generalised linear model. We will look at important special cases and discuss how to do inference and model diagnostics.
 
 $$\,$$
 
