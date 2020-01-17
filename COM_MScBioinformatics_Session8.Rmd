@@ -434,13 +434,13 @@ $$
 \begin{align}
 \mathbf{Statistics} & \leftrightarrow & \mathbf{Machine\ learning} \\
 && \\
-\mbox{models} & \rightarrow & \mbox{networks, graphs} \\
+\mbox{models} & \leftrightarrow & \mbox{networks, graphs} \\
 && \\
-\mbox{parameters} & \rightarrow & \mbox{weights} \\
+\mbox{parameters} & \leftrightarrow & \mbox{weights} \\
 && \\
-\mbox{fitting, estimating} & \rightarrow & \mbox{learning} \\
+\mbox{fitting, estimating} & \leftrightarrow & \mbox{learning} \\
 && \\
-\mbox{test set performance} & \rightarrow & \mbox{generalisation} \\
+\mbox{test set performance} & \leftrightarrow & \mbox{generalisation} \\
 && \\
 && \\
 \mbox{logistic regression} & \approx & \mbox{perceptron} \\
@@ -480,7 +480,7 @@ We will look at 3 techniques:
 
 **K-means clustering**
 
-We want to cluster some dataset $D={\mathbf{x}_i}$ into $K$ groups. We need to fix $K$, though nothing will stop us do try different values of $K$.
+We want to cluster some dataset $D=\{\mathbf{x}_i\}$ into $K$ groups. We need to fix $K$, though nothing will stop us do try different values of $K$.
 
 $$\,$$
 
@@ -538,7 +538,7 @@ Also many dedicated packages for different types of hiearchical clustering and s
 
 **Mixture models**
 
-We can take a formal statistical approach. Suppose we have data $D={\mathbf{X}_i}$. For each observation $\mathbf{x}_i$ we can write down it's likelihood using the Theorem of Total Probability:
+We can take a formal statistical approach. Suppose we have data $D=\{\mathbf{x}_i\}$. For each observation $\mathbf{x}_i$ we can write down it's likelihood using the Theorem of Total Probability:
 
 $$\,$$
 $$
@@ -560,7 +560,7 @@ Start with initial parameters values, then iterate until convergence:
 1. Expectation step: Do a soft assignment of observations to classes.
 2. Maximisation step: Optimise the weighted likelihoods for each class.
 
-Note that mixture models represent a large class of models and have a wide applicability.
+Mixture models are a large class of models and have wide applicability.
 
 
 # Classification & regression
@@ -568,7 +568,7 @@ Note that mixture models represent a large class of models and have a wide appli
 
 ## Classification & regression
 
-We will cover 9 key techniques for regression and / or classification:
+We will cover 10 key techniques for regression and / or classification:
 
 1. GLM: linear, log-linear, logistic, Poisson, ...
 2. Splines & GAM
@@ -1165,6 +1165,10 @@ R package & library: `caret`
 $$\,$$
 
 WEKA: [https://www.cs.waikato.ac.nz/ml/weka/](https://www.cs.waikato.ac.nz/ml/weka/)
+
+$$\,$$
+
+TensorFlow: [https://www.tensorflow.org/](https://www.tensorflow.org/)
 
 
 ##
